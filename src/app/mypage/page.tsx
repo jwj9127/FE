@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import MiniCalendar from '../../../util/scheduleCalendar/MiniCalendar';
 import UseReactSelect from '../../../util/select/UseReactSelect';
+import ScheduleCheck from '../../../util/ScheduleCheck';
 
 export default function myPage() {
   return (
@@ -39,7 +40,9 @@ export default function myPage() {
         </div>
 
         {/* 여행 계획 */}
-        <div></div>
+        <div>
+          <ScheduleCheck />
+        </div>
       </div>
 
       {/* 카카오맵 */}

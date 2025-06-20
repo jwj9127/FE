@@ -8,8 +8,6 @@ import IfGroup from './ifGroup';
 const GroupPage = () => {
   const [hotPlaceList, setHotPlaceList] = useState<any>(null);
 
-  setHotPlaceList(null);
-
   return (
     <div className={style.body}>
       {hotPlaceList ? <IfGroup /> : <NonGroup />}
